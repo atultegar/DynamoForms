@@ -1,0 +1,20 @@
+{
+  "license": "",
+  "file_hash": null,
+  "name": "DynamoForms",
+  "version": "1.0.0",
+  "description": "Dynamo Forms for input",
+  "group": "",
+  "keywords": null,
+  "dependencies": [],
+  "contents": "",
+  "engine_version": "2.0.2.6826",
+  "engine": "dynamo",
+  "engine_metadata": "",
+  "site_url": "",
+  "repository_url": "",
+  "contains_binaries": true,
+  "node_libraries": [
+    "DynamoForms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
