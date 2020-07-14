@@ -1,0 +1,16 @@
+C:\Projects\DynamoForms\DynamoForms\bin\Debug\DynamoForms.xml
+C:\Projects\DynamoForms\DynamoForms\bin\Debug\DynamoForms.dll
+C:\Projects\DynamoForms\DynamoForms\bin\Debug\DynamoForms.pdb
+C:\Projects\DynamoForms\DynamoForms\bin\Debug\RevitServices.dll
+C:\Projects\DynamoForms\DynamoForms\obj\Debug\DynamoForms.csprojAssemblyReference.cache
+C:\Projects\DynamoForms\DynamoForms\obj\Debug\ComboBox.g.cs
+C:\Projects\DynamoForms\DynamoForms\obj\Debug\DynamoForms_MarkupCompile.cache
+C:\Projects\DynamoForms\DynamoForms\obj\Debug\DynamoForms_MarkupCompile.lref
+C:\Projects\DynamoForms\DynamoForms\obj\Debug\ComboBox.baml
+C:\Projects\DynamoForms\DynamoForms\obj\Debug\DynamoForms.g.resources
+C:\Projects\DynamoForms\DynamoForms\obj\Debug\DynamoForms.csproj.CoreCompileInputs.cache
+C:\Projects\DynamoForms\DynamoForms\obj\Debug\DynamoForms.csproj.CopyComplete
+C:\Projects\DynamoForms\DynamoForms\obj\Debug\DynamoForms.dll
+C:\Projects\DynamoForms\DynamoForms\obj\Debug\DynamoForms.pdb
+C:\Projects\DynamoForms\DynamoForms\obj\Debug\MultiSelect.g.cs
+C:\Projects\DynamoForms\DynamoForms\obj\Debug\MultiSelect.baml

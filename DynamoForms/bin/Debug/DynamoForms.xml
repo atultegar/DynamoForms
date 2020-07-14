@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DynamoForms</name>
+    </assembly>
+    <members>
+        <member name="T:DynamoForms.ComboBox">
+            <summary>
+            Interaction logic for ComboBox.xaml
+            </summary>
+            <summary>
+            ComboBox
+            </summary>
+        </member>
+        <member name="M:DynamoForms.ComboBox.#ctor">
+            <summary>
+            WPF Form with combobox and Ok, Cancel buttons
+            </summary>
+        </member>
+        <member name="M:DynamoForms.ComboBox.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:DynamoForms.Forms">
+            <summary>
+            Forms for input
+            </summary>
+        </member>
+        <member name="M:DynamoForms.Forms.FormComboBox(System.String,System.Collections.Generic.List{System.Object})">
+            <summary>
+            
+            </summary>
+            <param name="title"></param>
+            <param name="list"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DynamoForms.Forms.FormMultiSelect(System.String,System.Collections.Generic.List{System.Object})">
+            <summary>
+            
+            </summary>
+            <param name="title"></param>
+            <param name="list"></param>
+            <returns></returns>
+        </member>
+        <member name="T:DynamoForms.MultiSelect">
+            <summary>
+            Interaction logic for MultiSelect.xaml
+            </summary>
+            <summary>
+            MultiSelect
+            </summary>
+        </member>
+        <member name="M:DynamoForms.MultiSelect.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+    </members>
+</doc>
