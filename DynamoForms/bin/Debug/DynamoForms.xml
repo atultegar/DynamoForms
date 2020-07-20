@@ -29,13 +29,21 @@
         </member>
         <member name="M:DynamoForms.Forms.FormComboBox(System.String,System.Collections.Generic.List{System.Object})">
             <summary>
-            
+            Form with combobox for input
             </summary>
             <param name="title"></param>
             <param name="list"></param>
             <returns></returns>
         </member>
         <member name="M:DynamoForms.Forms.FormMultiSelect(System.String,System.Collections.Generic.List{System.Object})">
+            <summary>
+            Form with List Box for inputs
+            </summary>
+            <param name="title"></param>
+            <param name="list"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DynamoForms.Forms.FormListBox(System.String,System.Collections.Generic.List{System.Object})">
             <summary>
             
             </summary>
@@ -52,6 +60,24 @@
             </summary>
         </member>
         <member name="M:DynamoForms.MultiSelect.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:DynamoForms.SelectionList">
+            <summary>
+            Interaction logic for SelectionList.xaml
+            </summary>
+            <summary>
+            SelectionList
+            </summary>
+        </member>
+        <member name="M:DynamoForms.SelectionList.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:DynamoForms.SelectionList.InitializeComponent">
             <summary>
             InitializeComponent
             </summary>

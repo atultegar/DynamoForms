@@ -14,3 +14,5 @@ C:\Projects\DynamoForms\DynamoForms\obj\Debug\DynamoForms.dll
 C:\Projects\DynamoForms\DynamoForms\obj\Debug\DynamoForms.pdb
 C:\Projects\DynamoForms\DynamoForms\obj\Debug\MultiSelect.g.cs
 C:\Projects\DynamoForms\DynamoForms\obj\Debug\MultiSelect.baml
+C:\Projects\DynamoForms\DynamoForms\obj\Debug\SelectionList.g.cs
+C:\Projects\DynamoForms\DynamoForms\obj\Debug\SelectionList.baml
