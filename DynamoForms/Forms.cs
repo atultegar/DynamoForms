@@ -14,6 +14,12 @@ namespace DynamoForms
     /// </summary>
     public class Forms
     {
+        //internal Forms()
+        //{
+
+        //}
+        
+        
         /// <summary>
         /// Form with combobox for input
         /// </summary>

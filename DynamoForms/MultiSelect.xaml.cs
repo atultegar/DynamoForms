@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Autodesk.DesignScript.Runtime;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,6 +19,7 @@ namespace DynamoForms
     /// <summary>
     /// Interaction logic for MultiSelect.xaml
     /// </summary>
+    [IsVisibleInDynamoLibrary(false)]
     public partial class MultiSelect : Window
     {
         public MultiSelect()

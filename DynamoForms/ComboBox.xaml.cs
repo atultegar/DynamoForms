@@ -19,6 +19,7 @@ namespace DynamoForms
     /// <summary>
     /// Interaction logic for ComboBox.xaml
     /// </summary>
+    [IsVisibleInDynamoLibrary(false)]
     public partial class ComboBox : Window
     {
         /// <summary>

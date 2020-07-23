@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Autodesk.DesignScript.Runtime;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,6 +19,7 @@ namespace DynamoForms
     /// <summary>
     /// Interaction logic for SelectionList.xaml
     /// </summary>
+    [IsVisibleInDynamoLibrary(false)]
     public partial class SelectionList : Window
     {
         /// <summary>
@@ -89,6 +91,34 @@ namespace DynamoForms
             btnSelectAll.IsEnabled = (lstUnselected.Items.Count > 0);
             btnDeselect.IsEnabled = (lstSelected.Items.Count > 0);
             btnDeselectAll.IsEnabled = (lstSelected.Items.Count > 0);
+        }
+
+        private void btn_MoveUp_Click(object sender, RoutedEventArgs e)
+        {
+            var selectedIndex = this.lstSelected.SelectedIndex;
+            if(selectedIndex > 0)
+            {
+                var itemToMoveUp = this.lstSelected.Items[selectedIndex];
+                this.lstSelected.Items.Remove(itemToMoveUp);
+                this.lstSelected.Items.Insert(selectedIndex - 1, itemToMoveUp);
+                this.lstSelected.SelectedIndex = selectedIndex - 1;
+            }
+        }
+
+        private void btn_MoveDown_Click(object sender, RoutedEventArgs e)
+        {
+            if (this.lstSelected.SelectedIndex != -1)
+            {
+                var selectedIndex = this.lstSelected.SelectedIndex;
+                if (selectedIndex + 1 < this.lstSelected.Items.Count)
+                {
+                    var itemToMoveDown = this.lstSelected.Items[selectedIndex];
+                    this.lstSelected.Items.Remove(itemToMoveDown);
+                    this.lstSelected.Items.Insert(selectedIndex + 1, itemToMoveDown);
+                    this.lstSelected.SelectedIndex = selectedIndex + 1;
+                }
+            }
+            
         }
     }
 }
