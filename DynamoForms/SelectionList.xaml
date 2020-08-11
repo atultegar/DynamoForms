@@ -5,7 +5,10 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:DynamoForms"
              mc:Ignorable="d" 
-             Height="480" Width="550">
+             Height="480" Width="550" 
+             ResizeMode="NoResize" 
+             WindowStartupLocation="CenterScreen" 
+             Topmost="True">
     <StackPanel Orientation="Vertical">
         <TextBlock x:Name="tb_1" Margin="20,10,0,0" FontSize="12" Text="Select multiple from the List Box" />
         <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Center" Height="350">
@@ -26,11 +29,11 @@
                 <ColumnDefinition Width="1*"/>
                 <ColumnDefinition Width="2*"/>
             </Grid.ColumnDefinitions>
-            <Button Grid.Column="2" x:Name="btn_MoveUp" Content="˄" Width="25" Height="25" Margin="10 0 0 0" HorizontalAlignment="Left" ToolTip="Move Up" Click="btn_MoveUp_Click">
-                
+            <Button Grid.Column="2" x:Name="btn_MoveUp" Width="25" Height="25" Margin="10 0 0 0" HorizontalAlignment="Left" Background="Transparent" BorderBrush="Transparent" Click="btn_MoveUp_Click">
+                <Image Source="resources/icons8_up_48px.png"/>
             </Button>
-            <Button Grid.Column="2" x:Name="btn_MoveDown" Content="˅" Width="25" Height="25" Margin="45 0 0 0" HorizontalAlignment="Left" Click="btn_MoveDown_Click">
-                
+            <Button Grid.Column="2" x:Name="btn_MoveDown" Width="25" Height="25" Margin="45 0 0 0" HorizontalAlignment="Left" Background="Transparent" BorderBrush="Transparent" Click="btn_MoveDown_Click">
+                <Image Source="resources/icons8_down_arrow_48px.png" />
             </Button>
 
         </Grid>

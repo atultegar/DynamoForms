@@ -117,8 +117,21 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="resources\icons8-down-arrow-96.png" />
-    <Content Include="resources\icons8-up-96.png" />
+    <Resource Include="resources\icons8_back_48px.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="resources\icons8_down_arrow_48px.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="resources\icons8_fast_forward_48px.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="resources\icons8_forward_48px.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="resources\icons8_up_48px.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
