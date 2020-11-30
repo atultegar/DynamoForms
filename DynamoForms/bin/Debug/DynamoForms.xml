@@ -35,7 +35,7 @@
             <param name="list"></param>
             <returns></returns>
         </member>
-        <member name="M:DynamoForms.Forms.FormMultiSelect(System.String,System.Collections.Generic.List{System.Object})">
+        <member name="M:DynamoForms.Forms.FormListSelect(System.String,System.Collections.Generic.List{System.Object})">
             <summary>
             Form with List Box for inputs
             </summary>
@@ -43,7 +43,7 @@
             <param name="list"></param>
             <returns></returns>
         </member>
-        <member name="M:DynamoForms.Forms.FormListBox(System.String,System.Collections.Generic.List{System.Object})">
+        <member name="M:DynamoForms.Forms.FormMultiSelect(System.String,System.Collections.Generic.List{System.Object})">
             <summary>
             
             </summary>

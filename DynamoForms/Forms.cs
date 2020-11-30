@@ -49,7 +49,7 @@ namespace DynamoForms
         /// <param name="list"></param>
         /// <returns></returns>
         [STAThread]
-        public static IList<object> FormMultiSelect(String title, List<object> list)
+        public static IList<object> FormListSelect(String title, List<object> list)
         {
             //IList<object> output = new List<object>();
             MultiSelect window = new MultiSelect();
@@ -72,7 +72,7 @@ namespace DynamoForms
         /// <param name="list"></param>
         /// <returns></returns>
         [STAThread]
-        public static IList<object> FormListBox(String title, List<object> list)
+        public static IList<object> FormMultiSelect(String title, List<object> list)
         {
             IList<object> output = new List<object>();
             SelectionList selectionList = new SelectionList();
