@@ -27,7 +27,7 @@ namespace DynamoForms
         /// <param name="list"></param>
         /// <returns></returns>
         [STAThread]
-        public static object FormComboBox(String title, List<object> list)
+        public static object FormComboBox(List<object> list, string title = "item")
         {
             
             ComboBox window = new ComboBox();
@@ -49,7 +49,7 @@ namespace DynamoForms
         /// <param name="list"></param>
         /// <returns></returns>
         [STAThread]
-        public static IList<object> FormListSelect(String title, List<object> list)
+        public static IList<object> FormListSelect(List<object> list, string title = "items")
         {
             //IList<object> output = new List<object>();
             MultiSelect window = new MultiSelect();
@@ -72,7 +72,7 @@ namespace DynamoForms
         /// <param name="list"></param>
         /// <returns></returns>
         [STAThread]
-        public static IList<object> FormMultiSelect(String title, List<object> list)
+        public static IList<object> FormMultiSelect(List<object> list, string title = "items")
         {
             IList<object> output = new List<object>();
             SelectionList selectionList = new SelectionList();

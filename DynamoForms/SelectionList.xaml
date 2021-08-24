@@ -6,13 +6,12 @@
              xmlns:local="clr-namespace:DynamoForms"
              mc:Ignorable="d" 
              Height="480" Width="550" 
-             ResizeMode="NoResize" 
              WindowStartupLocation="CenterScreen" 
              Topmost="True">
     <StackPanel Orientation="Vertical">
         <TextBlock x:Name="tb_1" Margin="20,10,0,0" FontSize="12" Text="Select multiple from the List Box" />
         <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Center" Height="350">
-            <ListBox x:Name="lstUnselected" Margin="10" Width="200" SelectionMode="Single" />
+            <ListBox x:Name="lstUnselected" Margin="10" Width="200" SelectionMode="Single" MinWidth="200" MinHeight="330" />
             <StackPanel Orientation="Vertical" Margin="10" VerticalAlignment="Center">
                 <Button x:Name="btnSelect" Content=">" Margin="10" Height="25" Width="50" Click="btnSelect_Click"/>
                 <Button x:Name="btnSelectAll" Content=">>" Margin="10" Height="25" Width="50" Click="btnSelectAll_Click"/>
@@ -39,6 +38,8 @@
         </Grid>
         
         <StackPanel Orientation="Horizontal" Margin="10 0 0 0" HorizontalAlignment="Right">
+            <Button x:Name="btn_Save" Content="Save List" Margin="10" Width="75" Height="25" Click="btn_Save_Click"/>
+            <Button x:Name="btn_Load" Content="Load List" Margin="10" Width="75" Height="25" Click="btn_Load_Click"/>
             <Button x:Name="btn_Ok" Content="Ok" Margin="10" Width="75" Height="25" Click="btn_Ok_Click"/>
             <Button x:Name="btn_Cancel" Content="Cancel" Margin="10" Width="75" Height="25" Click="btn_Cancel_Click"/>
         </StackPanel>

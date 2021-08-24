@@ -17,3 +17,4 @@ C:\Projects\DynamoForms\DynamoForms\obj\Debug\SelectionList.baml
 C:\Projects\DynamoForms\Compiled\DynamoForms.dll
 C:\Projects\DynamoForms\Compiled\DynamoForms.pdb
 C:\Projects\DynamoForms\Compiled\DynamoForms.xml
+C:\Projects\DynamoForms\DynamoForms\obj\Debug\DynamoForms.csproj.AssemblyReference.cache
