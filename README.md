@@ -26,7 +26,7 @@ DynamoForms is a Dynamo for Revit package used to implement WPF forms for select
     ![MultiSelectForm](Assets/MultiSelectForm.PNG)
     
 ## How to use
-1. Copy DynamoForms.dll from /Compiled folder to your local folder (e.g. C:\Users\<UserName>\OneDrive - COWI\Documents\Dynamo )
+1. Copy DynamoForms.dll from /Compiled folder to your local folder (e.g. C:\Users\<UserName>\Documents\Dynamo )
 
 2. Open Dynamo, File -> Import Library...
     Select DynamoForms.dll from your local folder
